@@ -92,9 +92,26 @@ with open("test.html", "rb") as f:
 with open("config.json") as file:
     datajson = json.load(file)
 
+
+
+
+
+    
+
+# En caso de colocar la ip a mano, favor de comentar esta linea #################################################################################################
+with open("env.json") as env:
+    env = json.load(env)
+
+
+
+
+
+
+
+
 # Creacion servidor
 
-IP_VM = "10.142.227.208"
+IP_VM = env["IP_VM1"] # En caso de colocar ip a mano, favor de cambiar esta linea
 socket_adress = (IP_VM,8000)
 
 print("Creando socket - Servidor")
