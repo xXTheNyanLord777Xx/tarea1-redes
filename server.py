@@ -71,8 +71,8 @@ head = {
 response = Message(head,body,start_line)
 
 # Creacion servidor
-
-IP_VM = "192.168.1.193"
+# añadir la IP correspondiente
+IP_VM = ""
 socket_adress = (IP_VM,8000)
 
 print("Creando socket - Servidor")
