@@ -94,7 +94,6 @@ with open("config.json") as file:
 
 # Creacion servidor
 
-#IP_VM = "192.168.1.193"
 IP_VM = "10.142.227.208"
 socket_adress = (IP_VM,8000)
 

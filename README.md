@@ -1,6 +1,6 @@
-# Tarea 2 — Proxy HTTP
+# Tarea 1 — Proxy HTTP
 
-Proxy HTTP para filtrado de contenido web (curso CC4303).
+Proxy HTTP para filtrado de contenido web.
 
 ## Cómo ejecutar
 
@@ -10,8 +10,8 @@ Proxy HTTP para filtrado de contenido web (curso CC4303).
 4. Probar con curl: `curl http://cc4303.bachmann.cl -x IP_VM:8000`
 
 ## Integrantes
-- Nombre 1
-- Nombre 2
+- Felipe Arriagada
+- Vicente Cepeda
 
 ## Uso de IA
 Ver informe adjunto (`informe.pdf`).
